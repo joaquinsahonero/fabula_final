@@ -43,12 +43,13 @@ Video del recorrido: https://ugmchile-my.sharepoint.com/:v:/g/personal/francisco
 
 | Prueba | Resultado | Ajuste que hice |
 |---|---|---|
-| Abrir el enlace en ventana privada | ... | ... |
-| Dispositivo elegido | ... | ... |
-| Interacciones, una por una | ... | ... |
-| Sonido con audífonos | ... | ... |
-| Fluidez del recorrido | ... | ... |
-| Entrar como si fuera la primera vez | ... | ... |
+| Abrir el enlace en ventana privada | Carga sin quedar en blanco. | Abre correctamente, pero no reproduce el audio ambiental
+Al ejecutarse en Pc abre sin problemas | revisar el código para ver si efectivamente fue cargado correctamente el audio
+| Dispositivo elegido | PC/ teléfono | ejecutó efectivamente en teléfono no se hicieron pruebas | es necesario revisar si corre bien en teléfono
+| Interacciones, una por una | Los objetos responden para poder identificarlos correctamente dentro de la escena, falta generar las interacciones complejas | falta generar las interacciones complejas para el usuario y poder guiarlo correctamente |
+| Sonido con audífonos | El sonido de la oveja suena correctamente pero el sonido ambiental no se reproduce. | corregir el código para que se reproduzca efectivamente cuando incia la escena | revisar también el encoding del audio para salir de dudas.
+| Fluidez del recorrido | La escena se reproduce de manera fluida | debido a los pocos objetos la carga no es muy demandante para la escena |
+| Entrar como si fuera la primera vez | no se entiende que es lo que hay que hacer | No hay interacciones planteadas, solo existe la interacción de la oveja y unas rotaciones de objetos. |
 
 ## 6 · Uso de IA
 
