@@ -18,11 +18,11 @@
         <a-asset-item id="oveja" src="assets/models/oveja.glb"></a-asset-item>
         <a-asset-item id="balde" src="assets/models/balde.glb"></a-asset-item>
         <a-asset-item id="barril" src="assets/models/barril.glb"></a-asset-item>
-        <audio id="ambiente" src="assets/audio/ambiente.mp3" preload="auto" crossorigin="anonymous"></audio>
+        <audio id="sound-ambiente" src="assets/audio/ambiente.mp3" preload="auto" crossorigin="anonymous"></audio>
         <audio id="sound-oveja" src="assets/audio/oveja.mp3"></audio> 
       </a-assets>
 
-        <a-entity sound="src: #ambiente; autoplay: true; loop: true; volume: 0.5; positional: false"></a-entity>
+        <a-entity sound="src: #sound-ambiente; autoplay: true; loop: true; volume: 0.5; positional: false"></a-entity>
 
         <a-entity class="clickable" gltf-model="#silla"
         position="-1.5 0 -3" rotation="0 35 0"
