@@ -33,6 +33,7 @@
         <a-asset-item id="saco" src="assets/models/saco.glb"></a-asset-item> 
         <a-asset-item id="oveja" src="assets/models/oveja.glb"></a-asset-item>
         <a-asset-item id="balde" src="assets/models/balde.glb"></a-asset-item>
+        <a-asset-item id="barril" src="assets/models/barril.glb"></a-asset-item>
         <audio id="ambiente" src="assets/audio/ambiente.mp3" preload="auto" crossorigin="anonymous"></audio>
         <audio id="sound-oveja" src="assets/audio/oveja.mp3"></audio> 
       </a-assets>
@@ -60,7 +61,13 @@
         sound=" src: #sound-oveja; on: click; positional: true"
         ></a-entity>
 
-        <a-entity class="clickable" gltf-model="#saco"
+        <a-entity class="clickable" gltf-model="#balde"
+        position="2 0 2" rotation="0 35 0"
+        animation__enter="property: scale; to: 1.2 1.2 1.2; dur: 200; startEvents:mouseenter"
+        Animation__leave="property: scale; to: 1 1 1; dur: 200; startEvents: mouseleave"
+        ></a-entity>
+
+        <a-entity class="clickable" gltf-model="#barril"
         position="2 0 2" rotation="0 35 0"
         animation__enter="property: scale; to: 1.2 1.2 1.2; dur: 200; startEvents:mouseenter"
         Animation__leave="property: scale; to: 1 1 1; dur: 200; startEvents: mouseleave"

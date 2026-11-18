@@ -25,6 +25,7 @@ Una experiencia que busca ver el peso de las decisiones y las oportunidades que 
 | assets/models/oveja.glb | Modelo 3D | descargado de la web Cgtrader https://www.cgtrader.com/free-3d-models/animal/mammal/low-poly-cartoon-sheep
 | assets/models/balde.glb | Modelo 3D | descargado de la web Cgtrader
 | assets/models/saco.glb | Modelo 3D | descargado de la web Cgtrader
+| assets/models/barril.glb | Modelo 3D | descargado de la web Cgtrader
 | assets/audio/ambiente.mp3 | Sonido ambiente | Pixabay
 | assets/audio/oveja.mp3 | Sonido al click | Pixabay
 
