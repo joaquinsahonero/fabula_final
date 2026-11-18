@@ -6,22 +6,6 @@
     <title>Proyecto RXI</title>
     <script src="https://aframe.io/releases/1.8.0/aframe.min.js"></script>
 
-          <script>
-  AFRAME.registerComponent('debug-materials', {
-  init: function () {
-    this.el.addEventListener('model-loaded', () => {
-      this.el.object3D.traverse(n => {
-        if (n.isMesh) {
-          console.log(n.name, n.material.type,
-            'metalness:', n.material.metalness,
-            'roughness:', n.material.roughness,
-            'color:', n.material.color.getHexString());
-        }
-      });
-    });
-    }
-    });
-      </script>
   </head>
   <body>
     
@@ -38,7 +22,7 @@
         <audio id="sound-oveja" src="assets/audio/oveja.mp3"></audio> 
       </a-assets>
 
-        <a-entity sound="src: #ambiente; autoplay: true; loop: true; volume: 0.5 positional: false"></a-entity>
+        <a-entity sound="src: #ambiente; autoplay: true; loop: true; volume: 0.5; positional: false"></a-entity>
 
         <a-entity class="clickable" gltf-model="#silla"
         position="-1.5 0 -3" rotation="0 35 0"
@@ -48,7 +32,7 @@
         ></a-entity>
 
         <a-entity class="clickable" gltf-model="#saco"
-        position="2 0 3" rotation="0 35 0"
+        position="2 0 4" rotation="0 35 0"
         animation__enter="property: scale; to: 1.2 1.2 1.2; dur: 200; startEvents:mouseenter"
         animation__leave="property: scale; to: 1 1 1; dur: 200; startEvents: mouseleave"
         animation__click="property: rotation; from: 0 35 0; to: 0 395 0; dur: 1000; startEvents: click"
@@ -58,20 +42,20 @@
         position="-6 0 4" rotation="0 35 0"
         animation__enter="property: scale; to: 1.2 1.2 1.2; dur: 200; startEvents:mouseenter"
         animation__leave="property: scale; to: 1 1 1; dur: 200; startEvents: mouseleave"
-        sound=" src: #sound-oveja; on: click; positional: true"
+        sound="src: #sound-oveja; on: click; positional: true"
         ></a-entity>
 
         <a-entity class="clickable" gltf-model="#balde"
         position="2 0 2" rotation="0 35 0"
         animation__enter="property: scale; to: 1.2 1.2 1.2; dur: 200; startEvents:mouseenter"
-        Animation__leave="property: scale; to: 1 1 1; dur: 200; startEvents: mouseleave"
-        animation--click="property: rotation; from: 0 35 0; to: 0 395 0; dur: 1000; startEvents: click"
+        animation__leave="property: scale; to: 1 1 1; dur: 200; startEvents: mouseleave"
+        animation__click="property: rotation; from: 0 35 0; to: 0 395 0; dur: 1000; startEvents: click"
         ></a-entity>
 
         <a-entity class="clickable" gltf-model="#barril"
-        position="2 0 2" rotation="0 35 0"
+        position="5 0 2" rotation="0 35 0"
         animation__enter="property: scale; to: 1.2 1.2 1.2; dur: 200; startEvents:mouseenter"
-        Animation__leave="property: scale; to: 1 1 1; dur: 200; startEvents: mouseleave"
+        animation__leave="property: scale; to: 1 1 1; dur: 200; startEvents: mouseleave"
         ></a-entity>
 
           <a-plane rotation="-90 0 0" width="100" height="100" color="#78C8A4"></a-plane>
