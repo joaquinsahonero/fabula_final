@@ -39,7 +39,7 @@ Principalmente la calidad de los modelos, veo que es bastante interesante el red
 
 ## 5 · Testing
 
-Video del recorrido: https://...
+Video del recorrido: https://ugmchile-my.sharepoint.com/:v:/g/personal/francisco_sahonero_estudiante_ugm_cl/IQAGlvAYjl9jRYGyqF0TweykAd1hooBEWWewv3aKj-ww_s4?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Gk1baR
 
 | Prueba | Resultado | Ajuste que hice |
 |---|---|---|
