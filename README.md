@@ -62,6 +62,7 @@ Principalmente al ser una forma de corregir mis códigos claramente fuí arregla
 - Lo que falta, en orden de importancia.
 
 1. Mejorar la ambientación con modelos extra y sonidos
-2. Generar el apartado de interacción con el usuario
+2. corregir la transparencia del saco de alimento
+3. Generar el apartado de interacción con el usuario
 3. integrar textos para ayudar al usuario a guiarlo por la experiencia
 4. generar un cierre de la experiencia dependiendo del resultado
