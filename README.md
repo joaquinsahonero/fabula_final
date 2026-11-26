@@ -1,4 +1,4 @@
-# Nombre de tu escena (index.html)
+# Nombre de tu escena Fábula Pedrito y el Lobo (index.html)
 
 Joaquin Sahonero · Realidades Extendidas y Experiencias Inmersivas · UGM · 2026
 
@@ -55,15 +55,23 @@ Al ejecutarse en Pc abre sin problemas | revisar el código para ver si efectiva
 
 - Qué le pedí a la IA:
 Para este apartado le pedí a claude que me asistiera con encontrar errores de código al momento de ver problemas dentro de la escena, ajustando el código que generalmente eran problemas de sintaxis que a simple vista no me percaté al momento de escribir el código, además me ayudo a generar un script para revisar los materiales si contienen el metallness y el rough bien ajustado para evitar problemas de visualización de los modelos.
+Para optimizar el trabajo le pedi a claude AI ayuda para la escritura del código y la generación del corral de ovejas a partir de un GLB cargado dentro del repositorio.
 - Qué hice yo y qué cambié de lo que me entregó.
 Principalmente al ser una forma de corregir mis códigos claramente fuí arreglando los problemas de sintaxis y el script para poder reconocer problemas de shading de los modelos.
+Las decisiones artísticas y de composición se mantienen junto con el trabajo de la narrativa de la experiencia.
 
-## 7 · Pendientes para el examen
+## 7· Pendientes para el examen (act 25-11-26)
+
+MVP corral de ovejas (genera bastante ambiente y ayuda con la inmersión)
 
 - Lo que falta, en orden de importancia.
 
 1. Mejorar la ambientación con modelos extra y sonidos
-2. corregir la transparencia del saco de alimento
+2. Corregir la transparencia del saco de alimento
 3. Generar el apartado de interacción con el usuario
-3. integrar textos para ayudar al usuario a guiarlo por la experiencia
-4. generar un cierre de la experiencia dependiendo del resultado
+4. Corregir la narrativa de la interacción para poder integrarla al montaje
+5. Generar el código para seguir la línea narrativa para el montaje final
+6. Integrar textos para ayudar al usuario a guiarlo por la experiencia
+7. Generar 3 estados de decisión para el usuario entre mentira y verdad
+8. Generar los resultados dependiendo de los 3 momentos de decisión dentro de la experiencia
+9. generar un cierre de la experiencia dependiendo del resultado
